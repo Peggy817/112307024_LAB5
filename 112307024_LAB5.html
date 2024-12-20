@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades Table</title>
+    <link rel="stylesheet" href="LAB5.css">
+</head>
+<body>
+    <div class="form-container">
+        <input type="number" id="math" placeholder="Math" />
+        <input type="number" id="english" placeholder="English" />
+        <button id="submit">Submit</button>
+    </div>
+    <table id="grades-table" border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="math-average">0.00</td>
+                <td id="english-average">0.00</td>
+                <td id="overall-average">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="LAB5.js"></script>
+</body>
+</html>
